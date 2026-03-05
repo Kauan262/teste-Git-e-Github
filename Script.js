@@ -1,1 +1,1 @@
-console.log('teste de conflito')
+console.log ('fazendo teste de solução de conflito.')
