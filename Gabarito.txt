@@ -1,0 +1,13 @@
+LS //Lista os itens do diretorio que voce esta;
+LS -Force(vs code) -a(Cmder)//mostra os arquivos ocutos como .git;
+CD "Nome do Diretorio" //Entra em um diretorio;
+CD.. //Volta ao Diretorio Anterior;
+MKDIR "Nome do diretorio" //Cria um diretorio;
+RMDRIR "Nome do diretorio" //Exclui um diretorio;
+TOUCH "Nome do arquivo" //Cria um arquivo;
+RM "Nome do arquivo" //Remove um arquivo;
+NANO "Nome do arquivo" //Abre um arquivo para edição ;
+CAT "Nome do arquivo" //Mostra o que tem dentro de um arquivo; 
+CLEAR //Limpa o terminal;
+MV "Nome do diretorio" "Renome do diretorio" //Altera o nome de um diretorio;
+//OBD: Tem como juntar comandos como cd../"Nome do diretorio" = sai do diretorio / entra no diretorio;

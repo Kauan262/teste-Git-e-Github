@@ -1,0 +1,16 @@
+GIT INIT //inicializa o git 
+GIT STATUS //olha o status do git
+GIT ADD //prepara os arquivos para serem commitados 
+GIT RM --CACHED <NOME DO ARQUIVO> //remove o arquivo da preparacao de commits
+GIT ADD . //adiciona todos os arquivos de uma folder para a lista de commit 
+GIT COMMIT -M "MENSAGEM" //commita o arquivo com uma mensagem (use a mensagem para espessificar a alteracao)
+GIT LOG //Mostra o storico de commit
+GIT LOG --ONELINE //mostra o storico de forma reduzida
+&& //colocar && entre comandos cria uma sequencia (Ex: git add . && git -commi  -m 'teste' ele adiciona o arqu na lista de commit e logo em seguida commita)
+GIT CHECKOUT <LOCAL> //Viaja ate o ponto escolhido (Ex. '8addf5a' vai ate o commit desta identificassao )
+GIT BRANCH //lista as branchs que voce possui 
+.GITIGNORE //tudo que voce adicionar aqui dentro sera ignorado 
+GIT BRANCH <Nome da branch> //cria uma nova branch (Checkout para alterar entre as branchs tambem)
+GIT BRANCH -d <Nome da branch> //deleta uma branch (caso esteja vazia ou fundida)
+GIT BRANCH -D <Nome da branch> //deleta uma branch de qualquer jeito 
+GIT MERGE //funde as branchs (voce tem que estar na branch destinataria e dar merge para puxar a branch que voce quer enviar ate a brench que voce deseja adicionar)
